@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="api.HTTPRequest">
+      <class name="crud.New">
         <methods>
-          <include name="testAPI"/>
+          <include name="newTc2"/>
         </methods>
-      </class> <!-- api.HTTPRequest -->
+      </class> <!-- crud.New -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
