@@ -29,6 +29,7 @@
 				<version>3.2.5</version>
 				<configuration>
 					<suiteXmlFiles>testingAnnotations.xml</suiteXmlFiles>
+					<suiteXmlFiles>testng.xml</suiteXmlFiles>
 					<suiteXmlFiles>testng2.xml</suiteXmlFiles>
 				</configuration>
 			</plugin>

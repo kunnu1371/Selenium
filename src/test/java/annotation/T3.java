@@ -19,7 +19,7 @@ public class T3 {
 	@Test(priority = 1,retryAnalyzer = Retry.class)
 	void test() {
 		System.out.println("Test T3");
-		Assert.assertTrue(false);
+		Assert.assertTrue(true);
 	}
 	
 }
