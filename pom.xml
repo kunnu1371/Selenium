@@ -23,6 +23,16 @@
 					<target>11</target>
 				</configuration>
 			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>3.2.5</version>
+				<configuration>
+					<forkCount>1</forkCount> <!-- Limits parallel test execution -->
+					<reuseForks>true</reuseForks>
+				</configuration>
+			</plugin>
+
 		</plugins>
 	</build>
 	<dependencies>
