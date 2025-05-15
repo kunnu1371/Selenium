@@ -16,7 +16,6 @@
 			</plugin>
 		</plugins>
 	</build>
-
 	<dependencies>
 		<dependency>
 			<groupId>io.rest-assured</groupId>
