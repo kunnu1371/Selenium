@@ -291,7 +291,8 @@ public class HTTPRequest {
 		XmlPath xmlPath = res.xmlPath();
 		Assert.assertEquals(xmlPath.get("root.state"), "CA");
 		XmlPath path = new XmlPath(res.getBody().asString());
-		System.out.println(path.get("root.lastName"));
+		String lastName = path.get("root.lastName");
+		System.out.println(lastName);
 	}
 
 	@Test
