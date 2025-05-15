@@ -1,0 +1,6 @@
+{
+  "name" : "bob",
+  "job" : "mechanic",
+  "id" : "9",
+  "skills" : [ "python", "c++", "java" ]
+}
