@@ -5,13 +5,13 @@
     <listener class-name="crud.AnnotationTransformer"/>
     <listener class-name="crud.TestListener"/>
   </listeners>
-  <test thread-count="5" name="Test(failed)" verbose="0">
+  <test thread-count="5" name="Test5(failed)" verbose="0">
     <classes>
-      <class name="annotation.T3">
+      <class name="crud.New">
         <methods>
-          <include name="test"/>
+          <include name="newTc2"/>
         </methods>
-      </class> <!-- annotation.T3 -->
+      </class> <!-- crud.New -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- Test5(failed) -->
 </suite> <!-- Failed suite [Suite] -->

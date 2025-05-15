@@ -1,13 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+<testng-results ignored="0" total="7" passed="6" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-15T22:15:45 IST" name="Suite" finished-at="2025-05-15T22:15:45 IST" duration-ms="55">
+  <suite started-at="2025-05-15T22:20:43 IST" name="Suite" finished-at="2025-05-15T22:21:02 IST" duration-ms="19143">
     <groups>
     </groups>
-    <test started-at="2025-05-15T22:15:45 IST" name="Test" finished-at="2025-05-15T22:15:45 IST" duration-ms="55">
-      <class name="annotation.T3">
-        <test-method signature="test()[pri:1, instance:annotation.T3@4988d8b8]" started-at="2025-05-15T22:15:45 IST" name="test" finished-at="2025-05-15T22:15:45 IST" duration-ms="0" status="FAIL">
+    <test started-at="2025-05-15T22:20:43 IST" name="Test1" finished-at="2025-05-15T22:20:48 IST" duration-ms="5030">
+      <class name="crud.CreateUser">
+        <test-method signature="createUser(org.testng.ITestContext)[pri:0, instance:crud.CreateUser@ae13544]" started-at="2025-05-15T22:20:43 IST" name="createUser" finished-at="2025-05-15T22:20:48 IST" duration-ms="4988" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1da2cb77]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+      </class> <!-- crud.CreateUser -->
+    </test> <!-- Test1 -->
+    <test started-at="2025-05-15T22:20:48 IST" name="Test2" finished-at="2025-05-15T22:20:49 IST" duration-ms="1200">
+      <class name="crud.GetUser">
+        <test-method signature="getUser(org.testng.ITestContext)[pri:0, instance:crud.GetUser@175b9425]" started-at="2025-05-15T22:20:48 IST" name="getUser" finished-at="2025-05-15T22:20:49 IST" duration-ms="1199" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@57eed461]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUser -->
+      </class> <!-- crud.GetUser -->
+    </test> <!-- Test2 -->
+    <test started-at="2025-05-15T22:20:49 IST" name="Test3" finished-at="2025-05-15T22:20:50 IST" duration-ms="1080">
+      <class name="crud.UpdateUser">
+        <test-method signature="createUser(org.testng.ITestContext)[pri:0, instance:crud.UpdateUser@6a03bcb1]" started-at="2025-05-15T22:20:49 IST" name="createUser" finished-at="2025-05-15T22:20:50 IST" duration-ms="1077" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4db16677]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+      </class> <!-- crud.UpdateUser -->
+    </test> <!-- Test3 -->
+    <test started-at="2025-05-15T22:20:50 IST" name="Test4" finished-at="2025-05-15T22:20:51 IST" duration-ms="1061">
+      <class name="crud.DeleteUser">
+        <test-method signature="createUser(org.testng.ITestContext)[pri:0, instance:crud.DeleteUser@2118cddf]" started-at="2025-05-15T22:20:50 IST" name="createUser" finished-at="2025-05-15T22:20:51 IST" duration-ms="1060" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4037cdb0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+      </class> <!-- crud.DeleteUser -->
+    </test> <!-- Test4 -->
+    <test started-at="2025-05-15T22:20:51 IST" name="Test5" finished-at="2025-05-15T22:20:51 IST" duration-ms="15">
+      <class name="crud.New">
+        <test-method signature="newTc1()[pri:0, instance:crud.New@32910148]" started-at="2025-05-15T22:20:51 IST" name="newTc1" finished-at="2025-05-15T22:20:51 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newTc1 -->
+        <test-method signature="newTc2()[pri:0, instance:crud.New@32910148]" started-at="2025-05-15T22:20:51 IST" name="newTc2" finished-at="2025-05-15T22:20:51 IST" duration-ms="0" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -18,7 +82,7 @@ at org.testng.Assert.fail(Assert.java:111)
 at org.testng.Assert.failNotEquals(Assert.java:1578)
 at org.testng.Assert.assertTrue(Assert.java:57)
 at org.testng.Assert.assertTrue(Assert.java:67)
-at annotation.T3.test(T3.java:22)
+at crud.New.newTc2(New.java:20)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -54,20 +118,31 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-      </class> <!-- annotation.T3 -->
-      <class name="annotation.T1">
-        <test-method signature="test()[pri:1, instance:annotation.T1@ae13544]" started-at="2025-05-15T22:15:45 IST" name="test" finished-at="2025-05-15T22:15:45 IST" duration-ms="6" status="PASS">
+        </test-method> <!-- newTc2 -->
+      </class> <!-- crud.New -->
+    </test> <!-- Test5 -->
+    <test started-at="2025-05-15T22:20:51 IST" name="Test6" finished-at="2025-05-15T22:21:02 IST" duration-ms="10683">
+      <class name="crud.Selenium">
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:crud.Selenium@6497b078]" started-at="2025-05-15T22:20:51 IST" name="tearUp" finished-at="2025-05-15T22:20:57 IST" duration-ms="5535" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-      </class> <!-- annotation.T1 -->
-      <class name="annotation.T2">
-        <test-method signature="test()[pri:1, instance:annotation.T2@63475ace]" started-at="2025-05-15T22:15:45 IST" name="test" finished-at="2025-05-15T22:15:45 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- tearUp -->
+        <test-method signature="automation()[pri:0, instance:crud.Selenium@6497b078]" started-at="2025-05-15T22:20:57 IST" name="automation" finished-at="2025-05-15T22:21:02 IST" duration-ms="4735" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-      </class> <!-- annotation.T2 -->
-    </test> <!-- Test -->
+        </test-method> <!-- automation -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:crud.Selenium@6497b078]" started-at="2025-05-15T22:21:02 IST" name="tearDown" finished-at="2025-05-15T22:21:02 IST" duration-ms="410" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=automation status=SUCCESS method=Selenium.automation()[pri:0, instance:crud.Selenium@6497b078] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- crud.Selenium -->
+    </test> <!-- Test6 -->
   </suite> <!-- Suite -->
 </testng-results>

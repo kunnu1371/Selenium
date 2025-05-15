@@ -50,12 +50,12 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>C:\Users\gautam.kunal\eclipse-workspace\DemoSelenium\DemoSelenium\testng2.xml</span>
+                    <span>C:\Users\gautam.kunal\eclipse-workspace\DemoSelenium\DemoSelenium\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
                   <a href="#" panel-name="testlist-Suite" class="navigator-link ">
-                    <span class="test-stats">1 test</span>
+                    <span class="test-stats">6 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods, 1 failed,   2 passed</span>
+                    <span class="method-stats">7 methods, 1 failed,   6 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -103,7 +103,7 @@
                     <div class="method-list-content failed suite-Suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="annotation.T3" class="method navigator-link" hash-for-method="test">test</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="crud.New" class="method navigator-link" hash-for-method="newTc2">newTc2</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Suite -->
@@ -117,12 +117,32 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="annotation.T1" class="method navigator-link" hash-for-method="test">test</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="crud.Selenium" class="method navigator-link" hash-for-method="automation">automation</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="annotation.T2" class="method navigator-link" hash-for-method="test">test</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="crud.CreateUser" class="method navigator-link" hash-for-method="createUser(org.testng.TestRunner@1da2cb77)">createUser(org.testng.TestRunner@1da2cb77)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="crud.UpdateUser" class="method navigator-link" hash-for-method="createUser(org.testng.TestRunner@4db16677)">createUser(org.testng.TestRunner@4db16677)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="crud.DeleteUser" class="method navigator-link" hash-for-method="createUser(org.testng.TestRunner@4037cdb0)">createUser(org.testng.TestRunner@4037cdb0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="crud.GetUser" class="method navigator-link" hash-for-method="getUser(org.testng.TestRunner@57eed461)">getUser(org.testng.TestRunner@57eed461)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="crud.New" class="method navigator-link" hash-for-method="newTc1">newTc1</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -140,16 +160,16 @@
           <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">annotation.T3</span>
+              <span class="class-name">crud.New</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="test">
-                  </a> <!-- test -->
-                  <span class="method-name">test</span>
+                  <a name="newTc2">
+                  </a> <!-- newTc2 -->
+                  <span class="method-name">newTc2</span>
                   <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
-	at annotation.T3.test(T3.java:22)
+	at crud.New.newTc2(New.java:20)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 33 stack frames
 </div> <!-- stack-trace -->
@@ -160,14 +180,15 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">annotation.T1</span>
+              <span class="class-name">crud.CreateUser</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="test">
-                  </a> <!-- test -->
-                  <span class="method-name">test</span>
+                  <a name="createUser(org.testng.TestRunner@1da2cb77)">
+                  </a> <!-- createUser(org.testng.TestRunner@1da2cb77) -->
+                  <span class="method-name">createUser</span>
+                  <span class="parameters">(org.testng.TestRunner@1da2cb77)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -175,14 +196,77 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">annotation.T2</span>
+              <span class="class-name">crud.New</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="test">
-                  </a> <!-- test -->
-                  <span class="method-name">test</span>
+                  <a name="newTc1">
+                  </a> <!-- newTc1 -->
+                  <span class="method-name">newTc1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">crud.DeleteUser</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createUser(org.testng.TestRunner@4037cdb0)">
+                  </a> <!-- createUser(org.testng.TestRunner@4037cdb0) -->
+                  <span class="method-name">createUser</span>
+                  <span class="parameters">(org.testng.TestRunner@4037cdb0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">crud.Selenium</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="automation">
+                  </a> <!-- automation -->
+                  <span class="method-name">automation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">crud.GetUser</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getUser(org.testng.TestRunner@57eed461)">
+                  </a> <!-- getUser(org.testng.TestRunner@57eed461) -->
+                  <span class="method-name">getUser</span>
+                  <span class="parameters">(org.testng.TestRunner@57eed461)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">crud.UpdateUser</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createUser(org.testng.TestRunner@4db16677)">
+                  </a> <!-- createUser(org.testng.TestRunner@4db16677) -->
+                  <span class="method-name">createUser</span>
+                  <span class="parameters">(org.testng.TestRunner@4db16677)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -190,7 +274,7 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\gautam.kunal\eclipse-workspace\DemoSelenium\DemoSelenium\testng2.xml</span>
+            <span class="header-content">C:\Users\gautam.kunal\eclipse-workspace\DemoSelenium\DemoSelenium\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -201,13 +285,36 @@
     &lt;listener class-name=&quot;crud.AnnotationTransformer&quot;/&gt;
     &lt;listener class-name=&quot;crud.TestListener&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test1&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;annotation.T1&quot;/&gt;
-      &lt;class name=&quot;annotation.T2&quot;/&gt;
-      &lt;class name=&quot;annotation.T3&quot;/&gt;
+      &lt;class name=&quot;crud.CreateUser&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Test --&gt;
+  &lt;/test&gt; &lt;!-- Test1 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test2&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;crud.GetUser&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test2 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test3&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;crud.UpdateUser&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test3 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test4&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;crud.DeleteUser&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test4 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test5&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;crud.New&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test5 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test6&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;crud.Selenium&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test6 --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -219,7 +326,22 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (3 classes)</span>
+                <span class="test-name">Test1 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test2 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test3 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test4 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test5 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test6 (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -245,24 +367,40 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(7);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'test')
-data.setCell(0, 2, 'annotation.T1')
-data.setCell(0, 3, 6);
+data.setCell(0, 1, 'createUser')
+data.setCell(0, 2, 'crud.CreateUser')
+data.setCell(0, 3, 4988);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'test')
-data.setCell(1, 2, 'annotation.T2')
-data.setCell(1, 3, 0);
+data.setCell(1, 1, 'automation')
+data.setCell(1, 2, 'crud.Selenium')
+data.setCell(1, 3, 4735);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'test')
-data.setCell(2, 2, 'annotation.T3')
-data.setCell(2, 3, 0);
+data.setCell(2, 1, 'getUser')
+data.setCell(2, 2, 'crud.GetUser')
+data.setCell(2, 3, 1199);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'createUser')
+data.setCell(3, 2, 'crud.UpdateUser')
+data.setCell(3, 3, 1077);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'createUser')
+data.setCell(4, 2, 'crud.DeleteUser')
+data.setCell(4, 3, 1060);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'newTc1')
+data.setCell(5, 2, 'crud.New')
+data.setCell(5, 3, 2);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'newTc2')
+data.setCell(6, 2, 'crud.New')
+data.setCell(6, 3, 0);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 6 ms</span>
+              <span class="suite-total-time">Total running time: 13 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -288,27 +426,60 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">annotation.T1</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">crud.CreateUser</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">test</span>
+                <span class="method-name">createUser(org.testng.TestRunner@1da2cb77)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">annotation.T2</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">crud.GetUser</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">test</span>
-                <span class="method-start">10 ms</span>
+                <span class="method-name">getUser(org.testng.TestRunner@57eed461)</span>
+                <span class="method-start">5052 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">annotation.T3</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">crud.UpdateUser</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">createUser(org.testng.TestRunner@4db16677)</span>
+                <span class="method-start">6257 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">crud.DeleteUser</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">createUser(org.testng.TestRunner@4037cdb0)</span>
+                <span class="method-start">7341 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">crud.New</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">newTc1</span>
+                <span class="method-start">8407 ms</span>
+              </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">test</span>
-                <span class="method-start">21 ms</span>
+                <span class="method-name">newTc2</span>
+                <span class="method-start">8415 ms</span>
               </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">crud.Selenium</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">tearUp</span>
+                <span class="method-start">8431 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">automation</span>
+                <span class="method-start">13966 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=automation status=SUCCESS method=Selenium.automation()[pri:0, instance:crud.Seleniu...)</span>
+                <span class="method-start">18702 ms</span>
+              </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

@@ -9,15 +9,30 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">55</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Test1</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">5,030</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Test2</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">1,200</td><td></td><td></td></tr>
+<tr><td><a href="#t2">Test3</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">1,080</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t3">Test4</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">1,061</td><td></td><td></td></tr>
+<tr><td><a href="#t4">Test5</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">15</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t5">Test6</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">10,683</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">6</th><th class="num">0</th><th class="num">0</th><th class="num attn">1</th><th class="num">19,069</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">annotation.T3</td><td><a href="#m0">test</a></td><td rowspan="1">1747327545584</td><td rowspan="1">0</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">annotation.T1</td><td><a href="#m1">test</a></td><td rowspan="1">1747327545563</td><td rowspan="1">6</td></tr><tr class="passedodd"><td rowspan="1">annotation.T2</td><td><a href="#m2">test</a></td><td rowspan="1">1747327545573</td><td rowspan="1">0</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test1 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">crud.CreateUser</td><td><a href="#m0">createUser</a></td><td rowspan="1">1747327843438</td><td rowspan="1">4988</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Test2 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">crud.GetUser</td><td><a href="#m1">getUser</a></td><td rowspan="1">1747327848490</td><td rowspan="1">1199</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">Test3 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">crud.UpdateUser</td><td><a href="#m2">createUser</a></td><td rowspan="1">1747327849695</td><td rowspan="1">1077</td></tr></tbody>
+<tbody id="t3"><tr><th colspan="4">Test4 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">crud.DeleteUser</td><td><a href="#m3">createUser</a></td><td rowspan="1">1747327850779</td><td rowspan="1">1060</td></tr></tbody>
+<tbody id="t4"><tr><th colspan="4">Test5 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">crud.New</td><td><a href="#m4">newTc2</a></td><td rowspan="1">1747327851853</td><td rowspan="1">0</td></tr><tr><th colspan="4">Test5 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">crud.New</td><td><a href="#m5">newTc1</a></td><td rowspan="1">1747327851845</td><td rowspan="1">2</td></tr></tbody>
+<tbody id="t5"><tr><th colspan="4">Test6 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">crud.Selenium</td><td><a href="#m6">automation</a></td><td rowspan="1">1747327857404</td><td rowspan="1">4735</td></tr></tbody>
 </table>
-<h2>Test</h2><h3 id="m0">annotation.T3#test</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
-	at annotation.T3.test(T3.java:22)
+<h2>Test1</h2><h3 id="m0">crud.CreateUser#createUser</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>org.testng.TestRunner@1da2cb77</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test2</h2><h3 id="m1">crud.GetUser#getUser</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>org.testng.TestRunner@57eed461</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test3</h2><h3 id="m2">crud.UpdateUser#createUser</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>org.testng.TestRunner@4db16677</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test4</h2><h3 id="m3">crud.DeleteUser#createUser</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>org.testng.TestRunner@4037cdb0</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test5</h2><h3 id="m4">crud.New#newTc2</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at crud.New.newTc2(New.java:20)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">annotation.T1#test</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">annotation.T2#test</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">crud.New#newTc1</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test6</h2><h3 id="m6">crud.Selenium#automation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
